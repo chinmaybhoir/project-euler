@@ -78,5 +78,6 @@ if __name__ == '__main__':
 
   print("count:", MAX_COUNT)
   print("a:", MAX_A, "b:", MAX_B)
+  print("answer:", MAX_A*MAX_B)
   print("t:",time.time() - START_T)
 
