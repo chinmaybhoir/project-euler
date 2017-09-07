@@ -14,13 +14,12 @@ What is the 10 001st prime number?
 
 import time
 start_t = time.time()
-import numpy as np
-import lib_fun as lib
+from lib_fun import is_prime 
 
 def get_nth_prime(n):
     prime_count = 0
     for i in range(2,99999999999):
-        if lib.is_prime(i):
+        if is_prime(i):
             prime_count += 1
         if prime_count == n:
             answer = i
